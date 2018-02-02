@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en" style="background-color: #FFFFFF;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>מכללת עתיד למובייל בחר עיר</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+  </head>
+  <!-- Body  -->
+  <body style="background-color: #F1EEED;">
+  <!-- Navigation bar  -->
+  <nav style="background-color:#F1EEED " class="navbar navbar-expand-md navbar-dark fixed-top"  >
+    <a style="float: left; padding-top: 10px;" class="navbar-brand"  href="firstPage.html">&#10094;</a>
+
+    <button  style="float: right;padding-top: 10px;" class="navbar-toggler" type="button"
+             data-toggle="collapse" data-target="#navbarsExampleDefault"
+             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"><i class="fa fa-phone fa-fw"><a href="tel:1234567890"></i>
+                *9880<br><small>תלחץ להתקשרות <i class="fa fa-level-up"></i></small></a></h3></div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="http://www.atid.org.il/admissions">משרות לבוגרים<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://www.michlol.org/r/">כניסת סטודנטים</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com"
+             id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">מכללות</a>
+          <div style="text-align: right" class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">תל אביב</a>
+            <a class="dropdown-item" href="#">מעלות</a>
+            <a class="dropdown-item" href="#">באר שבע</a>
+            <a class="dropdown-item" href="#">חיפה</a>
+            <a class="dropdown-item" href="#">קרית מוצקין</a>
+            <a class="dropdown-item" href="#">ירכא</a>
+            <a class="dropdown-item" href="#">כרמיאל</a>
+            <a class="dropdown-item" href="#">לוד</a>
+            <a class="dropdown-item" href="#">המכון לתשתיות ואנרגיה קרית ביאליק</a>
+            <a class="dropdown-item" href="#">מרכז הכשרה ממשלתי אשקלון</a>
+            <a class="dropdown-item" href="#">מרכז הכשרה ממשלתי מלט"ב חולון</a>
+            <a class="dropdown-item" href="#">מרכז הכשרה ממשלתי תל ארזה ירושלים</a>
+        <li class="nav-item">
+          <a class="nav-link" href="hodot_page/hodotpage.html">אודות עתיד</a>
+        </li>
+
+
+    </div>
+    </li>
+    </ul>
+
+  </nav>
+  <!--// Navigation bar  -->
+  <!-- //Navigation bar  -->
+  <!-- main  -->
+    <main style="background-color: #F1EEED;" role="main" class="container">
+
+      <div style="margin-top: 70px; background-color: #F1EEED;" class="starter-template">
+
+
+        <div >
+
+          <img style="top:0"  width="250px" height="100px" src="images/text_mimun_medina.png">
+        </div>
+
+        <div class="dropdown">
+
+          <button style="background-color: #fff; height: 70px; width: 200px;" title="atidPickCity" alt="atidPickCity" onclick="myFunction()" class="dropbtn2"></button>
+          <div style="border-radius: 5px; background-color: #108A7C; width: 200px;" id="myDropdown" class="dropdown-content">
+            <a href="mimunCoursesHaifa.html">מרכז הכשרה ממשלתי אשקלון</a>
+            <a href="coursesPageMalot.html">מרכז הכשרה ממשלתי מלט"ב חולון</a>
+            <a href="coursesPageBeerSheva.html">מרכז הכשרה ממשלתי תל ארזה ירושלים</a>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn2')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+
+    <!-- preLoading script-->
+    <script>
+
+        window.addEventListener("load",function () {
+            var load_screen=document.getElementById("load_screen");
+
+            setTimeout(function () {
+                document.body.removeChild(load_screen);
+            },1000);
+
+
+        });
+
+
+    </script>
+    <!--//preLoading script-->
+
+  </body>
+  <!--//Body -->
+</html>
