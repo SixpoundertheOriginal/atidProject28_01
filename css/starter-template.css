@@ -263,24 +263,23 @@ div#load_screen >div#loading{
 
 #rehev{
   background: url("../images/rehev.png")no-repeat;
-  background-size: 70px;
-  width: 100px;
-  height: 100px;
+  background-size: 100px;
+  width: 150px;
+  height: 150px;
   border: none;
 }
 #binyan{
   background: url("../images/binyan2.png")no-repeat;
-  background-size: 70px;
-  position: center;
-  width: 100px;
-  height: 100px;
+  background-size: 100px;
+  width: 150px;
+  height: 150px;
   border: none;
 }
 #elect{
   background: url("../images/elec.png")no-repeat;
-  background-size: 70px;
-  width: 100px;
-  height: 100px;
+ background-size: 100px;
+  width: 150px;
+  height: 150px;
   border: none;
 }
 #elect2{
@@ -299,9 +298,9 @@ div#load_screen >div#loading{
 }
 #prog{
   background: url("../images/cyber.png")no-repeat;
-  background-size: 70px;
-  width: 100px;
-  height: 100px;
+ background-size: 100px;
+  width: 150px;
+  height: 150px;
   border: none;
 }
 #imgRehev{
@@ -326,30 +325,30 @@ div#load_screen >div#loading{
 }
 #img1{
     background: url("../images/handesai_tibam_btn.png")no-repeat;
-    background-size: 70px;
-    width: 100px;
-    height: 100px;
+   background-size: 100px;
+  width: 150px;
+  height: 150px;
     border: none;
 }
 #img2{
     background: url("../images/medina_course_button_orange.png")no-repeat;
-    background-size: 70px;
-    width: 100px;
-    height: 100px;
+    background-size: 100px;
+  width: 150px;
+  height: 150px;
     border: none;
 }
 #img3{
     background: url("../images/handesai_mechatronica_btn.png")no-repeat;
-    background-size: 70px;
-    width: 100px;
-    height: 100px;
+   background-size: 100px;
+  width: 150px;
+  height: 150px;
     border: none;
 }
 #img4{
     background: url("../images/handesai_meshur_bakara_btn.png")no-repeat;
-    background-size: 70px;
-    width: 100px;
-    height: 100px;
+  background-size: 100px;
+  width: 150px;
+  height: 150px;
     border: none;
 }
 #img5{
